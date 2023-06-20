@@ -54,3 +54,8 @@ Array(array1, x);
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 Console.WriteLine("Первоначальный массив: ");
+PrintArray1(array1, x);
+Console.WriteLine(" ");
+Console.WriteLine(" ");
+Console.WriteLine("Новый массив: ");
+SearchElementsOfArray(array1, array2, x);
