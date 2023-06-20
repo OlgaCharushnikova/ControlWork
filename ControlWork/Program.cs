@@ -20,3 +20,28 @@ void PrintArray1(string[] array, int l)
     }
     Console.Write("]");
 }
+
+void SearchElementsOfArray(string[] array1, string[] array2, int l)
+{
+    int count = 0;
+    int j = 0;
+    for (int i = 0; i < l; i++)
+    { 
+        if (array1[i].Length <= 3)
+        {
+        array2[j] = array1[i];
+        j++;
+        count++;
+        }
+    }
+    Console.Write("[");
+    for (int i = 0; i < count; i++)
+    {
+        Console.Write($"{array2[i]}");
+        if (i < count - 1)
+        {
+            Console.Write(", ");
+        }
+    }
+    Console.Write("]");
+}
