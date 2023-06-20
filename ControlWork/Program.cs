@@ -45,3 +45,8 @@ void SearchElementsOfArray(string[] array1, string[] array2, int l)
     }
     Console.Write("]");
 }
+
+Console.WriteLine("Введите количество элементов массива: ");
+int x = Convert.ToInt32(Console.ReadLine());
+string[] array1 = new string[x];
+string[] array2 = new string[x];
