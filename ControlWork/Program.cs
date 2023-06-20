@@ -6,3 +6,17 @@
         array[i] = Console.ReadLine();
     }
 }
+
+void PrintArray1(string[] array, int l)
+{
+    Console.Write("[");
+    for (int j = 0; j < l; j++)
+    {
+        Console.Write($"{array[j]}");
+        if (j < l - 1)
+        {
+            Console.Write(", ");
+        }
+    }
+    Console.Write("]");
+}
