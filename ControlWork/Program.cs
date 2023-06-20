@@ -50,3 +50,7 @@ Console.WriteLine("Введите количество элементов мас
 int x = Convert.ToInt32(Console.ReadLine());
 string[] array1 = new string[x];
 string[] array2 = new string[x];
+Array(array1, x);
+Console.WriteLine(" ");
+Console.WriteLine(" ");
+Console.WriteLine("Первоначальный массив: ");
